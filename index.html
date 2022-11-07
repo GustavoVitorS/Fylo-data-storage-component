@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | Componente de armazenamento de dados Fylo</title>
+</head>
+<body>
+  <div class="fylo-container">
+    <div class="fylo-control-btns-bar animate__animated animate__fadeInLeft">
+      <div class="fylo-logo">
+        <img class="fylo-logo__image" src="images/logo.svg" alt="fylo logo">
+      </div>
+      <div class="fylo-btns">
+        <input class="btn fylo-btns__document" type="image" src="images/icon-document.svg" />
+        <input class="btn fylo-btns__folder" type="image" src="images/icon-folder.svg" />
+        <input class="btn fylo-btns__upload" type="image" src="images/icon-upload.svg" />
+      </div>
+    </div>
+    <div class="data-usage">
+      <div class="how-much-used">
+        <p class="data-usage__heading">Você usou 815 GB do seu armazenamento</p>
+        <div class="used-bar">
+          <div class="progress-bar">
+            <div class="progress-bar__dot"></div>
+          </div>
+        </div>
+        <div class="how-much-data-to-use">
+          <p class="how-much-data-to-use__start">0 GB</p>
+          <p class="how-much-data-to-use__end">1000 GB</p>
+        </div>
+        <div class="info animate__animated animate__bounceIn">
+          <span class="info__number">185</span>
+          <p class="info__unit">GB Falta</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
